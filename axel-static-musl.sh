@@ -45,5 +45,5 @@ make
 exit"
 mkdir -p dist
 cp ./pasta/axel-2.17.14/axel dist/
-strip dist/wget
+strip dist/axel
 tar -C dist -cJf dist/axel.tar.xz axel
